@@ -1,0 +1,98 @@
+@font-face { font-family: 'Handon3gyeopsal600g'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/Handon3gyeopsal600g.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+/* (1) */
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  background-image: url('https://mblogthumb-phinf.pstatic.net/MjAxOTA0MDJfMTc3/MDAxNTU0MjA0NTk0NzYx.Voi8SzkQXFfgQhHeuWaXYPRQul8fmdZKK10H9DpX_88g.KjUnAfpKqCCcSeEyL6CLmDPobpXIp8dHG1uKJn9PMwAg.PNG.lin419/%EA%B7%B8%EB%A6%BC4.png?type=w800');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+}
+/* (1-1) */
+#logo {
+  width: 500px;
+}
+/* (2) */
+.menu_select{
+  display: flex;
+  justify-content: center;
+}
+
+/* (3) */
+.menu li{
+  list-style-type: none;
+}
+
+/* (4) */
+.menu li a{
+  color: white;
+  text-decoration: none;
+}
+
+/* (5) */
+.menu_select li{
+  margin-right: 20px;
+}
+
+/* (6) */
+header{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+/* (11) */
+#minions_video{
+    min-width: 1200px;
+}
+
+/* (12) */
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* (13) */
+.dodo{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+/* (14) */
+.dodo{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* (15) */
+.info{
+  margin-top: 100px;
+}
+/* (16) */
+#footer{
+  background-color: rgb(39, 35, 68);
+  height: 150px;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 15px;
+  color: black;
+}
+
+/* (17) */
+#footer p a{
+  text-decoration: none;
+  color: black;
+}
+body{
+    font-family:'yg-jalnan';
+    background-color: black;
+    color : white;
+}
+together_size{
+  width : 500px;
+  height : 500px;
+}
