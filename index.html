@@ -1,10 +1,80 @@
-<h1>Word Count</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<a href="{% url 'about'%}">ABOUT</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PUBG</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
-<form action="{% url 'result' %}">
-    {% csrf_token %}
-    <textarea name="fulltext" id="" cols="30" rows="10"></textarea>
-    <br>
-    <input type="submit" value="Count!">
-</form>
+    <!-- index.css -->
+    <link rel="stylesheet" href='pubg.css' type="text/css">
+    <!-- Google fonts -->
+
+
+
+
+</head>
+
+<body id="body">
+
+    <header class="align_center">
+        <a href="index.html"><img id="logo" src="pubg_logo.PNG" alt=""></a>
+    </header>
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+            <a class="nav-link" href="gun.html">총기</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="granade.html">투척무기</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="frypan.html">근접무기</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="gear.html">장구류</a>
+        </li>
+    </ul>
+    <div class="align_center">
+        <video id="video" controls autoplay>
+            <source src="PUBG.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div>
+        <p class="container mt-3" style="color: aliceblue;">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, ullam aliquid iusto, quidem cumque praesentium
+            consectetur tempore neque eius quibusdam ab perspiciatis accusamus doloremque quo, fugiat quisquam totam
+            possimus error?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique culpa, dicta soluta, cupiditate ipsam
+            veritatis sunt quia quo nostrum animi ad, harum expedita tenetur. Laudantium illum modi ipsum libero culpa.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, accusantium placeat. Libero, reprehenderit
+            unde explicabo nisi expedita ipsa soluta recusandae consequatur corrupti voluptate sint quos ipsum. Qui
+            velit deleniti ea.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime veritatis aliquam ea quidem
+            eaque dicta. Delectus, reprehenderit. Nobis similique odit eligendi beatae nesciunt dolores deserunt eaque
+            itaque natus non.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur odio voluptatum hic repudiandae illo
+            veniam eos a facere error. Culpa consequuntur maiores vel sapiente deserunt tempore, voluptatibus sunt alias
+            excepturi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi mollitia quis optio quos sunt nostrum unde
+            porro minus consectetur. Nemo facilis, consequuntur esse excepturi nam quam quia amet maiores magnam!
+        </p>
+    </div>
+
+
+    <footer id="footer" class="align_center">
+        <a href="#logo">상단으로</a>
+    </footer>
+
+</body>
